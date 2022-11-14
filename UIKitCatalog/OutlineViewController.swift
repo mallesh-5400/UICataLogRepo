@@ -260,6 +260,7 @@ extension OutlineViewController {
             }
         }
 
+        
         // Load our initial data.
         let snapshot = initialSnapshot()
         self.dataSource.apply(snapshot, to: .main, animatingDifferences: false)
